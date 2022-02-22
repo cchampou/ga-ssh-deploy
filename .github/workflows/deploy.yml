@@ -5,5 +5,5 @@ jobs:
   Connect:
     runs-on: ubuntu-latest
     steps:
-      - run: ssh -t cchampou@176.190.176.219
+      - run: ssh -T cchampou@176.190.176.219
       - run: ls
