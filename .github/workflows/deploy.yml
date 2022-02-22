@@ -1,0 +1,9 @@
+name: Deploy via SSH
+on: [push]
+
+jobs:
+  Connect:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ssh cchampou@176.190.176.219
+      - run: ls
